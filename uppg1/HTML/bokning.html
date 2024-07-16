@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <!-- Meta tags for character encoding, viewport settings, title, stylesheet, and favicon -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bokning</title>
+    <link rel="stylesheet" href="../stil/style.css">
+    <link rel="icon" href="bilder/cols-img2.png">
+</head>
+<body>
+    <!-- Header section with title and navigation menu -->
+    <header>
+        <h1>Café Choco-Latte</h1>
+        <article>
+            <h3>Fantastiskt kaffe & läckra backverk</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatem fuga dolor dolorum iusto vitae similique et dolore, sapiente deserunt quod architecto recusandae sunt quos excepturi enim blanditiis ex reiciendis nemo debitis provident numquam sed. Ipsa aliquid voluptatum adipisci laudantium, quo fugit! Soluta voluptate, beatae et cum natus quis provident!
+            </p>
+        </article>
+        <!-- Navigation menu for site pages -->
+        <nav>
+            <ul>
+                <li><a href="../index.html">Startsida</a></li>
+                <li>
+                    <a href="chokladprovning.html">Chokladprovning</a>
+                    <ul>
+                        <li><a href="bokning.html">Boka chokladprovning</a></li>
+                    </ul>
+                </li>
+                <li><a href="kakaoträdet.html">Kakaoträdet</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <!-- Main content area -->
+    <main>
+        <!-- Section containing the booking form -->
+        <section>
+            <!-- Section header -->
+            <h2>Boka Chokladprovning</h2>
+            <!-- Booking form -->
+            <form action="#" method="post">
+                <!-- Label and input for selecting date -->
+                <fieldset>
+                    <legend>Välj datum:</legend>
+                    <p><input type="radio" name="date" value="30 april"> 30 april</p>
+                    <p><input type="radio" name="date" value="2 maj"> 2 maj</p>
+                    <p><input type="radio" name="date" value="7 maj"> 7 maj</p>
+                    <p><input type="radio" name="date" value="9 maj"> 9 maj</p>
+                    <p><input type="radio" name="date" value="14 maj"> 14 maj</p>
+                    <p><input type="radio" name="date" value="16 maj"> 16 maj</p>
+                </fieldset>
+                <!-- Label and input for selecting number of people -->
+                <fieldset>
+                    <legend>Välj antal personer</legend>
+                    <select>
+                        <option value="1">1</option>
+                        <option value="1">2</option>
+                        <option value="1">3</option>
+                        <option value="1">4</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Fyll i dina uppgifter</legend>
+                    <!-- Label and input for entering name -->
+                    <label for="name">Namn:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <br>
+
+                    <!-- Label and input for entering email -->
+                    <label for="email">E-post:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <br>
+
+                    <!-- Label and input for entering mobile phone number -->
+                    <label for="phone">Mobilnummer:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <br>
+
+                    <!-- Label and textarea for entering additional message -->
+                    <label for="message">Meddelande:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </fieldset>
+
+                <!-- Submit button for the form -->
+                <button type="submit">Boka</button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer with copyright information -->
+    <footer>
+        <hr>
+        <p>&copy; 2024 Chokladprovning AB</p>
+    </footer>
+</body>
+</html>

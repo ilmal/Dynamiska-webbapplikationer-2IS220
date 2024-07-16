@@ -4,51 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Café Choco-Latte</title>
-    <link rel="stylesheet" href="../stil/style.css">
+    <link rel="stylesheet" href="stil/style.css">
     <link rel="icon" href="bilder/cols-img2.png">
 </head>
 <body>
+    <!-- Header section with navigation menu -->
     <header>
-        <h1>Välkommen till Café Choco-Latte</h1>
+        <h1>Café Choco-Latte</h1>
+        <article>
+            <h3>Fantastiskt kaffe & läckra backverk</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptatem fuga dolor dolorum iusto vitae similique et dolore, sapiente deserunt quod architecto recusandae sunt quos excepturi enim blanditiis ex reiciendis nemo debitis provident numquam sed. Ipsa aliquid voluptatum adipisci laudantium, quo fugit! Soluta voluptate, beatae et cum natus quis provident!
+            </p>
+        </article>
+        <!-- Navigation menu for site pages -->
         <nav>
             <ul>
                 <li><a href="index.html">Startsida</a></li>
-                <li><a href="chokladprovning.html">Chokladprovning</a></li>
-                <li><a href="bokning.html">Bokning</a></li>
-                <li><a href="kakaoträdet.html">Kakaoträdet</a></li>
+                <li>
+                    <a href="HTML/chokladprovning.html">Chokladprovning</a>
+                    <ul>
+                        <li><a href="HTML/bokning.html">Boka chokladprovning</a></li>
+                    </ul>
+                </li>
+                <li><a href="HTML/kakaoträdet.html">Kakaoträdet</a></li>
             </ul>
         </nav>
+        <hr>
     </header>
     <main>
+        <!-- Section for news and events -->
         <section>
-            <h2>Nyheter och Evenemang</h2>
+            <!-- Article for each news item/event -->
             <article>
-                <h3>Kommande Chokladprovning</h3>
-                <p>Vi har en spännande chokladprovning nästa månad. Boka din plats nu!</p>
+                <h3>Fantastiskt kaffe</h3>
+                <img width="100" src="bilder/cols-img.png" alt="Varm choklad">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero officiis, sed impedit iusto eligendi vero corrupti modi reiciendis ut corporis expedita! Praesentium et id velit quo ipsum natus in debitis, magnam cupiditate delectus, iste minus ab asperiores. Reprehenderit, unde magnam labore id est tempore quis aspernatur beatae vero, praesentium fuga.</p>
             </article>
             <article>
-                <h3>Nya Bakverk i Menyn</h3>
-                <p>Upptäck våra nya bakverk, inklusive flera varianter av chokladkakor.</p>
+                <h3>Läckra bakverk</h3>
+                <img width="100" src="bilder/cols-img2.png" alt="Bakverk Ikon">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo est laborum sunt quasi adipisci pariatur sit repellat corporis perferendis iure tenetur architecto dicta sequi, consectetur quos suscipit ullam explicabo velit.</p>
             </article>
             <article>
-                <h3>Live Musik på Fredagar</h3>
-                <p>Njut av live musik varje fredag kväll medan du smakar på vårt utsökta kaffe.</p>
+                <h3>Här hittar du oss</h3>
+                <img width="100" src="bilder/cols-img3.png" alt="Bakverk Ikon">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas sequi alias quos impedit ea fuga ullam deserunt rerum quibusdam praesentium.</p>
             </article>
         </section>
+        <hr>
         <section>
-            <div class="icon-box">
-                <img src="bilder/hot-chocolate.jpg" alt="Varm choklad">
-                <h3>Varm choklad</h3>
-                <p>Upplev vårt högkvalitativa Varm choklad från de bästa odlingarna.</p>
-            </div>
-            <div class="icon-box">
-                <img src="bilder/chocolate-dessert.jpg" alt="Bakverk Ikon">
-                <h3>Bakverk</h3>
-                <p>Våra bakverk är gjorda med kärlek och de bästa ingredienserna.</p>
-            </div>
+            <h2>Nyheter</h2>
+            <!-- Article for each news item -->
+            <article>
+                <h3>Chokladprovning - 25 april</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nostrum esse natus deserunt itaque adipisci ea similique sequi nisi eligendi. Reiciendis quia non magnam dolorum ea sint modi, earum ducimus. <a href="HTML/chokladprovning.html">Läs mer om chokladprovning</a></p>
+            </article>
+            <article>
+                <h3>Ny Kffesmak - 22 april</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minima tenetur pariatur voluptatem cumque! Vitae! <a href="#">Läs mer om kaffesmaker</a></p>
+            </article>
         </section>
     </main>
+    <!-- Footer with copyright information -->
     <footer>
+        <hr>
         <p>&copy; 2024 Café Choco-Latte</p>
     </footer>
 </body>
